@@ -1,3 +1,2 @@
 # Learning by doing
-##Trying git and lerning on the go. More content will be added into this folder
-Learning about it
+## Here is a project I am working on to build a machine learning project and host it on an app. 
