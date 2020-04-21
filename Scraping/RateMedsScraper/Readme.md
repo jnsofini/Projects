@@ -9,7 +9,7 @@ The data is restricted to medical personnel with at least a review.
 
 ### Identifying the URL structure
 Our challenge now is to make sure we understand the logic of the URL as the pages we want to scrape change. This will help us to extract the parameters we want. At the moment, we are going to extract the __name, specialty, ratings, votes, gender__. The votes refer to the number of people who gave reviews, and the others are self-explanatory. Each page will have information that looks like the following:
-![ ](https://github.com/jnsofini/Web-Scaping/blob/master/figs/ratemds_page.png)
+![ ](https://github.com/jnsofini/Full-Stack/blob/master/Scraping/RateMedsScraper/Figs/ratemds_page.png)
 
 Lets further limit ourselves to doctors in the Regina region. The url in this case is <em>https://www.ratemds.com/best-doctors/sk/regina/ </em>. We used url request
 <pre><code>
@@ -106,7 +106,7 @@ import pandas as pd
                         })</code></pre>
 `page_1df.head()` should show
 
-![](https://github.com/jnsofini/Web-Scaping/blob/master/figs/df_page1.png)
+![](https://github.com/jnsofini/Full-Stack/blob/master/Scraping/RateMedsScraper/Figs/df_page1.png)
 
 ### The script for multiple pages
 
